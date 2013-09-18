@@ -1,17 +1,16 @@
 namespace :cook do
   task :default do
+    if ! ENV['ENV']
+      logger.aborting "You need to set ENV"
+      abort
+    end
 
-    set :env_by_branch, %x[git branch | grep '*']
-    set :env, ENV['ENV'] || env_by_branch.split[1]
+    set :env, ENV['ENV']
     set :base_path, File.expand_path('.cook', File.dirname(__FILE__))
     set :install_path, "#{base_path}/cookbooks-#{env}"
     set :cookbook_tarball, "cookbooks-#{env}.tgz"
     set :cookbook_upload, "#{base_path}/#{cookbook_tarball}"
     set :s3_namespace, 'mapzen.opsworks'
-
-    if ! ENV['ENV']
-      logger.achtung "You didn't set ENV, so I'm trying #{env}"
-    end
 
     # build
     logger.notice 'Running berks and archiving'
