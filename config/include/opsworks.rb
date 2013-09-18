@@ -1,29 +1,31 @@
 namespace :opsworks do
+  desc 'List stacks'
   task :list_stacks do
-    desc 'List stacks'
 
     logger.notice 'Available stacks: '
     begin
-      stacks = AWS_OPSWORKS.describe_stacks
-    rescue
+      response = AWS_OPSWORKS.describe_stacks
+    rescue Exception => e
       logger.achtung "Exception raised: #{e}"
     else
-      stacks.each { |h,k| logger.info k[:name] + ', ' + k[:stack_id] }
+      response[:stacks].each { |stack| logger.info stack.values_at(:name, :stack_id).join(', ') } 
     end
   end
 
+  desc 'List stacks'
   task :list_layers do
     desc 'List layers for a given stack'
 
     set(:mystack, Capistrano::CLI.ui.ask("What stack do you want layer details for: "))
     begin
-      layers = AWS_OPSWORKS.describe_layers(options = {:stack_id => "#{mystack}"})
-      layers.each { |h,k| logger.info k[:name] + ', ' + k[:layer_id] } # not quite
+      response = AWS_OPSWORKS.describe_layers(options = {:stack_id => "#{mystack}"})
+      response[:layers].each { |layer| logger.info layer.values_at(:name, :layer_id).join(', ') } 
     rescue Exception => e
       logger.achtung "Exception raised: #{e}"
     end
   end
 
+  desc 'Run deployment command'
   task :cmd do
     set(:mystack, Capistrano::CLI.ui.ask("What stack do you want to run the command on: "))
     set(:mycmd, Capistrano::CLI.ui.ask("What command do you want to run: "))
