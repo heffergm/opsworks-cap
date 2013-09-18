@@ -15,8 +15,6 @@ namespace :opsworks do
 
   desc 'List layers'
   task :list_layers do
-    desc 'List layers for a given stack'
-
     set(:mystack, Capistrano::CLI.ui.ask("What stack do you want layer details for: "))
     begin
       response = AWS_OPSWORKS.describe_layers(options = {:stack_id => "#{mystack}"})
