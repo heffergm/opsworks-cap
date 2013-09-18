@@ -15,9 +15,6 @@ AWS.config(YAML.load_file('config/aws.yml')['default'])
 AWS_OPSWORKS = AWS::OpsWorks.new.client
 AWS_S3 = AWS::S3.new
 
-# stack info
-#STACKS = YAML.load_file('config/opsworks.yml')
-
 # load includes for cleanliness
 Dir.glob('config/include/*.rb') do |file|
   load "#{file}"
