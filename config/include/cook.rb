@@ -28,7 +28,7 @@ namespace :cook do
     rescue Exception => e
       logger.achtung "Caught exception while uploading to S3 bucket #{s3_namespace}-#{env}: #{e}"
     else
-      logger.notice "Completed successful upload of #{cookbook_tarball} to #{s3_namespace}.opsworks-#{env}!"
+      logger.notice "Completed successful upload of #{cookbook_tarball} to #{s3_namespace}-#{env}!"
     end
 
     # cleanup

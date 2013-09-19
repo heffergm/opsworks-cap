@@ -13,9 +13,9 @@
       "locked_version": "0.3.1"
     },
     "postgiswrap": {
-      "locked_version": "0.4.4",
+      "locked_version": "0.4.5",
       "git": "https://github.com/heffergm/postgiswrap.git",
-      "ref": "1d574b884d6317c64de85ce0b0a9e503410c801b"
+      "ref": "574cb761cec0f9f3e2fa07f12de43c6b3f33a277"
     },
     "mapnikwrap": {
       "locked_version": "0.2.0",
@@ -23,14 +23,14 @@
       "ref": "a1e60a430c4130fca718f59668fdcaf34e4a66df"
     },
     "osm2pgsql": {
-      "locked_version": "0.1.0",
+      "locked_version": "0.3.0",
       "git": "https://github.com/heffergm/osm2pgsql.git",
-      "ref": "ccb39affb31668b43e1af44b9119a7425d634ddb"
+      "ref": "279a28b72fb62f44d8078f8bd0418f878c5217a9"
     },
     "osmosis": {
-      "locked_version": "0.2.3",
+      "locked_version": "0.3.0",
       "git": "https://github.com/heffergm/osmosis.git",
-      "ref": "76e42a9c3f6e2976b171675b62b25df77799c427"
+      "ref": "5a1f4941a0c9131c55e4e93a6636f043e33483c4"
     },
     "postgresql": {
       "locked_version": "0.20.8",
