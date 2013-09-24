@@ -14,7 +14,7 @@ namespace :cook do
 
     # build
     logger.notice 'Running berks and archiving'
-    run_locally "berks update && berks install --path #{install_path}"
+    run_locally "berks update && berks install --path #{install_path} && git commit -am 'berks update'"
 
     FileUtils.mkdir_p("#{base_path}")
     run_locally "tar czf #{cookbook_upload} -C #{install_path} ."
