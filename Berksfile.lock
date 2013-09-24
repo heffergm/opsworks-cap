@@ -14,22 +14,27 @@
     },
     "postgiswrap": {
       "locked_version": "0.4.5",
-      "git": "https://github.com/heffergm/postgiswrap.git",
-      "ref": "574cb761cec0f9f3e2fa07f12de43c6b3f33a277"
+      "git": "https://github.com/heffergm/chef-postgiswrap.git",
+      "ref": "b5f2cd45f0d4fbefc13f0345cba740fa08eb0f9e"
     },
     "mapnikwrap": {
       "locked_version": "0.2.0",
-      "git": "https://github.com/heffergm/mapnikwrap.git",
-      "ref": "a1e60a430c4130fca718f59668fdcaf34e4a66df"
+      "git": "https://github.com/heffergm/chef-mapnikwrap.git",
+      "ref": "d285d94e9833629dc573df7164b4d98d288afb1c"
     },
     "osm2pgsql": {
       "locked_version": "0.3.0",
-      "git": "https://github.com/heffergm/osm2pgsql.git",
-      "ref": "279a28b72fb62f44d8078f8bd0418f878c5217a9"
+      "git": "https://github.com/heffergm/chef-osm2pgsql.git",
+      "ref": "5021cbf0f13ebc6e3dc03c02e12f2447b5b59dd7"
+    },
+    "vpnwrap": {
+      "locked_version": "0.0.1",
+      "git": "https://github.com/heffergm/chef-vpnwrap.git",
+      "ref": "964e40ccb084ebd1633cfef4497b5bf8e42e8d26"
     },
     "osmosis": {
       "locked_version": "0.3.0",
-      "git": "https://github.com/heffergm/osmosis.git",
+      "git": "https://github.com/heffergm/chef-osmosis.git",
       "ref": "5a1f4941a0c9131c55e4e93a6636f043e33483c4"
     },
     "postgresql": {
@@ -37,15 +42,15 @@
       "git": "https://github.com/heffergm/chef-postgresql.git",
       "ref": "81961098f4a2f0bb35458d7e0c2d32bad9ece8d9"
     },
+    "sysctl": {
+      "locked_version": "0.1.9",
+      "git": "https://github.com/heffergm/chef-sysctl.git",
+      "ref": "37550879feb9edd26348f863fe0229ab70f56b53"
+    },
     "mapnik": {
       "locked_version": "0.0.1",
       "git": "https://github.com/marsam/cookbook-mapnik.git",
       "ref": "1ccfc15d6c54a7500a7c6b271c1b06ffd6c95c30"
-    },
-    "sysctl": {
-      "locked_version": "0.1.9",
-      "git": "https://github.com/heffergm/sysctl-cookbook.git",
-      "ref": "37550879feb9edd26348f863fe0229ab70f56b53"
     },
     "dmg": {
       "locked_version": "2.0.0"
@@ -64,6 +69,9 @@
     },
     "runit": {
       "locked_version": "1.2.0"
+    },
+    "openvpn": {
+      "locked_version": "1.1.2"
     },
     "ark": {
       "locked_version": "0.3.2"
