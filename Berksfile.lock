@@ -35,7 +35,7 @@
     "openvpn": {
       "locked_version": "1.2.0",
       "git": "https://github.com/heffergm/chef-openvpn.git",
-      "ref": "98e4edb496d0c9816c57e6f7ebae16604caae81e"
+      "ref": "929e3ccf589325495c54ce2505ec5c873dac405a"
     },
     "osmosis": {
       "locked_version": "0.3.0",
