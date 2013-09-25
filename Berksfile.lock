@@ -15,32 +15,32 @@
     "postgiswrap": {
       "locked_version": "0.4.5",
       "git": "https://github.com/heffergm/chef-postgiswrap.git",
-      "ref": "b5f2cd45f0d4fbefc13f0345cba740fa08eb0f9e"
+      "ref": "ba9e40e5f14aad5857d86e72934769c6ac524fc8"
     },
     "mapnikwrap": {
       "locked_version": "0.2.0",
       "git": "https://github.com/heffergm/chef-mapnikwrap.git",
-      "ref": "d285d94e9833629dc573df7164b4d98d288afb1c"
+      "ref": "d742afd88f5268a5ed690924a7ba4d673d26a95a"
     },
     "osm2pgsql": {
       "locked_version": "0.3.0",
       "git": "https://github.com/heffergm/chef-osm2pgsql.git",
-      "ref": "5021cbf0f13ebc6e3dc03c02e12f2447b5b59dd7"
+      "ref": "cd3c62671f3555b9f6414b29554cfbee344e9761"
     },
     "vpnwrap": {
       "locked_version": "0.0.1",
       "git": "https://github.com/heffergm/chef-vpnwrap.git",
-      "ref": "964e40ccb084ebd1633cfef4497b5bf8e42e8d26"
+      "ref": "341f3f5c35b2519487c08fd2a20e02d486157507"
     },
     "openvpn": {
       "locked_version": "1.2.0",
       "git": "https://github.com/heffergm/chef-openvpn.git",
-      "ref": "929e3ccf589325495c54ce2505ec5c873dac405a"
+      "ref": "f3a3b1b58a736699c00faa8b496f7f741b660da0"
     },
     "osmosis": {
       "locked_version": "0.3.0",
       "git": "https://github.com/heffergm/chef-osmosis.git",
-      "ref": "5a1f4941a0c9131c55e4e93a6636f043e33483c4"
+      "ref": "072a4d155da42a6876684c7344d2e6e782b2635a"
     },
     "postgresql": {
       "locked_version": "0.20.8",
