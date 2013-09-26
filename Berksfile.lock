@@ -13,9 +13,9 @@
       "locked_version": "0.3.1"
     },
     "postgiswrap": {
-      "locked_version": "0.4.5",
+      "locked_version": "0.5.0",
       "git": "https://github.com/heffergm/chef-postgiswrap.git",
-      "ref": "ba9e40e5f14aad5857d86e72934769c6ac524fc8"
+      "ref": "e03f5228ededd32a90dce9da0313226a04d3272c"
     },
     "mapnikwrap": {
       "locked_version": "0.2.0",
@@ -45,7 +45,7 @@
     "postgresql": {
       "locked_version": "0.20.8",
       "git": "https://github.com/heffergm/chef-postgresql.git",
-      "ref": "81961098f4a2f0bb35458d7e0c2d32bad9ece8d9"
+      "ref": "494af0bd3f2943797527227694efdc348785fc1f"
     },
     "sysctl": {
       "locked_version": "0.1.9",
