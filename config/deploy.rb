@@ -1,11 +1,7 @@
-# cap
-
 begin
-  #require 'cinch'
   require 'rainbow'
   require 'aws-sdk'
   require 'railsless-deploy' 
-  #require 'capistrano/ext/multistage'
 rescue LoadError
   abort "No soup for you! Please run 'bundle install'"
 end
