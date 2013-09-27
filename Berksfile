@@ -14,6 +14,7 @@ cookbook 'osmosis'         , git: 'https://github.com/heffergm/chef-osmosis.git'
 cookbook 'sysctl'          , git: 'https://github.com/heffergm/chef-sysctl.git'          , branch: 'master'
 cookbook 'minutely_mapnik' , git: 'https://github.com/heffergm/chef-minutely_mapnik.git' , branch: 'master'
 cookbook 'postgresql'      , git: 'https://github.com/heffergm/chef-postgresql.git'      , tag: '0.13.0-187'
+cookbook 'opsworkswrap'    , git: 'https://github.com/heffergm/chef-opsworkswrap.git'    , tag: '0.0.1'
 
 # external
 cookbook 'mapnik',           git: 'https://github.com/marsam/cookbook-mapnik.git'        , branch: 'master'
