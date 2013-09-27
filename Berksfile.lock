@@ -13,9 +13,9 @@
       "locked_version": "0.3.1"
     },
     "postgiswrap": {
-      "locked_version": "0.6.0",
+      "locked_version": "0.7.3",
       "git": "https://github.com/heffergm/chef-postgiswrap.git",
-      "ref": "9e603082827da60dc051dfb9078f67b3ab1297a1"
+      "ref": "d8e0c6876e28f71c72fedf5eb7c3d5e94052f214"
     },
     "mapnikwrap": {
       "locked_version": "0.2.0",
@@ -42,11 +42,6 @@
       "git": "https://github.com/heffergm/chef-osmosis.git",
       "ref": "072a4d155da42a6876684c7344d2e6e782b2635a"
     },
-    "postgresql": {
-      "locked_version": "0.30.2",
-      "git": "https://github.com/heffergm/chef-postgresql.git",
-      "ref": "3a53dd0fa21a234595386aee8dd98cff6221c8c6"
-    },
     "sysctl": {
       "locked_version": "0.1.9",
       "git": "https://github.com/heffergm/chef-sysctl.git",
@@ -61,6 +56,11 @@
       "locked_version": "0.0.1",
       "git": "https://github.com/marsam/cookbook-mapnik.git",
       "ref": "1ccfc15d6c54a7500a7c6b271c1b06ffd6c95c30"
+    },
+    "postgresql": {
+      "locked_version": "0.13.0",
+      "git": "https://github.com/phlipper/chef-postgresql.git",
+      "ref": "2ea4b18178569549332028de27c3583717926888"
     },
     "dmg": {
       "locked_version": "2.0.0"
