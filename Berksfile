@@ -16,4 +16,4 @@ cookbook 'minutely_mapnik' , git: 'https://github.com/heffergm/chef-minutely_map
 
 # external
 cookbook 'mapnik',           git: 'https://github.com/marsam/cookbook-mapnik.git'        , branch: 'master'
-cookbook 'postgresql'      , git: 'https://github.com/phlipper/chef-postgresql.git'      , branch: 'master' , ref: '0.13.0'
+cookbook 'postgresql'      , git: 'https://github.com/phlipper/chef-postgresql.git'      , tag: '0.13.0'
