@@ -52,15 +52,15 @@
       "git": "https://github.com/heffergm/chef-minutely_mapnik.git",
       "ref": "409512747a327d157bced9f9cd7232b70a5af71b"
     },
+    "postgresql": {
+      "locked_version": "0.13.0",
+      "git": "https://github.com/heffergm/chef-postgresql.git",
+      "ref": "80128fe3807f54b300bf2c3300906b0c76158e50"
+    },
     "mapnik": {
       "locked_version": "0.0.1",
       "git": "https://github.com/marsam/cookbook-mapnik.git",
       "ref": "1ccfc15d6c54a7500a7c6b271c1b06ffd6c95c30"
-    },
-    "postgresql": {
-      "locked_version": "0.13.0",
-      "git": "https://github.com/phlipper/chef-postgresql.git",
-      "ref": "2ea4b18178569549332028de27c3583717926888"
     },
     "dmg": {
       "locked_version": "2.0.0"
