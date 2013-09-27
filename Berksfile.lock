@@ -28,9 +28,9 @@
       "ref": "facb2cf95b55a9b66dbdad2831d3a215fc90c127"
     },
     "vpnwrap": {
-      "locked_version": "0.0.1",
+      "locked_version": "0.0.2",
       "git": "https://github.com/heffergm/chef-vpnwrap.git",
-      "ref": "341f3f5c35b2519487c08fd2a20e02d486157507"
+      "ref": "c5f24cf319c44ba14f7f1d44af15fce1fd689609"
     },
     "openvpn": {
       "locked_version": "1.2.0",
