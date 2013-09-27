@@ -53,9 +53,9 @@
       "ref": "37550879feb9edd26348f863fe0229ab70f56b53"
     },
     "minutely_mapnik": {
-      "locked_version": "0.0.2",
+      "locked_version": "0.1.0",
       "git": "https://github.com/heffergm/chef-minutely_mapnik.git",
-      "ref": "de29fe7f6e4beeeb9d7795601e8cd4d899de34b0"
+      "ref": "4c9b35a7d4dfc5992074baf1387403b9adce792d"
     },
     "mapnik": {
       "locked_version": "0.0.1",
