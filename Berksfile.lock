@@ -57,11 +57,6 @@
       "git": "https://github.com/heffergm/chef-postgresql.git",
       "ref": "80128fe3807f54b300bf2c3300906b0c76158e50"
     },
-    "opsworkswrap": {
-      "locked_version": "0.0.1",
-      "git": "https://github.com/heffergm/chef-opsworkswrap.git",
-      "ref": "3ba64ae2f2d44cf0dfc3a428966e5df0b3e8caf1"
-    },
     "mapnik": {
       "locked_version": "0.0.1",
       "git": "https://github.com/marsam/cookbook-mapnik.git",
@@ -84,9 +79,6 @@
     },
     "runit": {
       "locked_version": "1.2.0"
-    },
-    "ruby": {
-      "locked_version": "0.9.2"
     },
     "ark": {
       "locked_version": "0.3.2"
