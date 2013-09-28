@@ -5,10 +5,13 @@ cookbook 'git'
 cookbook 'ohai'
 cookbook 'ulimit'
 
+# mapzen
+cookbook 'vpnwrap'         , git: 'git@github.com:mapzen/chef-vpnwrap.git'               , branch: 'master'
+
+# heffergm
 cookbook 'postgiswrap'     , git: 'https://github.com/heffergm/chef-postgiswrap.git'     , branch: 'master'
 cookbook 'mapnikwrap'      , git: 'https://github.com/heffergm/chef-mapnikwrap.git'      , branch: 'master'
 cookbook 'osm2pgsql'       , git: 'https://github.com/heffergm/chef-osm2pgsql.git'       , branch: 'master'
-cookbook 'vpnwrap'         , git: 'https://github.com/heffergm/chef-vpnwrap.git'         , branch: 'master'
 cookbook 'openvpn'         , git: 'https://github.com/heffergm/chef-openvpn.git'         , branch: 'master'
 cookbook 'osmosis'         , git: 'https://github.com/heffergm/chef-osmosis.git'         , branch: 'master'
 cookbook 'sysctl'          , git: 'https://github.com/heffergm/chef-sysctl.git'          , branch: 'master'
