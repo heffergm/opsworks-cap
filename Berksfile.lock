@@ -13,9 +13,9 @@
       "locked_version": "0.3.1"
     },
     "vpnwrap": {
-      "locked_version": "0.1.4",
+      "locked_version": "0.1.5",
       "git": "git@github.com:mapzen/chef-vpnwrap.git",
-      "ref": "7512e8fc703bbbc8df90cb6d0ca83cdeb327e9fd"
+      "ref": "099ad8917d29537dc02f609139b51aecfcc1ce04"
     },
     "postgiswrap": {
       "locked_version": "0.7.3",
