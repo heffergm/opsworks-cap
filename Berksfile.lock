@@ -19,8 +19,13 @@
     },
     "osm2pgsql": {
       "locked_version": "0.4.3",
-      "git": "git@github.com:mapzen/chef-osm2pgsql.git",
+      "git": "https://github.com/mapzen/chef-osm2pgsql.git",
       "ref": "ff6d4073d017793b4561cae56b40be7967d9ee2f"
+    },
+    "osmosis": {
+      "locked_version": "0.3.0",
+      "git": "https://github.com/mapzen/chef-osmosis.git",
+      "ref": "072a4d155da42a6876684c7344d2e6e782b2635a"
     },
     "postgiswrap": {
       "locked_version": "0.7.4",
@@ -36,11 +41,6 @@
       "locked_version": "1.2.0",
       "git": "https://github.com/heffergm/chef-openvpn.git",
       "ref": "f3a3b1b58a736699c00faa8b496f7f741b660da0"
-    },
-    "osmosis": {
-      "locked_version": "0.3.0",
-      "git": "https://github.com/heffergm/chef-osmosis.git",
-      "ref": "072a4d155da42a6876684c7344d2e6e782b2635a"
     },
     "sysctl": {
       "locked_version": "0.1.9",
