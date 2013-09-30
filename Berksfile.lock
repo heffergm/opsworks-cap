@@ -27,6 +27,11 @@
       "git": "https://github.com/mapzen/chef-osmosis.git",
       "ref": "072a4d155da42a6876684c7344d2e6e782b2635a"
     },
+    "minutely_mapnik": {
+      "locked_version": "0.1.3",
+      "git": "https://github.com/mapzen/chef-minutely_mapnik.git",
+      "ref": "619b68c6d654de02c11b04d4f183cdf6b161284c"
+    },
     "postgiswrap": {
       "locked_version": "0.7.4",
       "git": "https://github.com/heffergm/chef-postgiswrap.git",
@@ -46,11 +51,6 @@
       "locked_version": "0.1.9",
       "git": "https://github.com/heffergm/chef-sysctl.git",
       "ref": "37550879feb9edd26348f863fe0229ab70f56b53"
-    },
-    "minutely_mapnik": {
-      "locked_version": "0.1.3",
-      "git": "https://github.com/heffergm/chef-minutely_mapnik.git",
-      "ref": "619b68c6d654de02c11b04d4f183cdf6b161284c"
     },
     "postgresql": {
       "locked_version": "0.13.0",
