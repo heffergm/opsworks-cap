@@ -7,6 +7,7 @@ cookbook 'ulimit'
 
 # mapzen
 cookbook 'vpnwrap'         , git: 'git@github.com:mapzen/chef-vpnwrap.git'               , branch: 'master'
+cookbook 'osm2pgsql'       , git: 'git@github.com:mapzen/chef-osm2pgsql.git'             , branch: 'master'
 
 # heffergm
 cookbook 'postgiswrap'     , git: 'https://github.com/heffergm/chef-postgiswrap.git'     , branch: 'master'
