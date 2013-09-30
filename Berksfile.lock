@@ -18,9 +18,9 @@
       "ref": "099ad8917d29537dc02f609139b51aecfcc1ce04"
     },
     "postgiswrap": {
-      "locked_version": "0.7.3",
+      "locked_version": "0.7.4",
       "git": "https://github.com/heffergm/chef-postgiswrap.git",
-      "ref": "d8e0c6876e28f71c72fedf5eb7c3d5e94052f214"
+      "ref": "33b9b262a92e414c144b3a60db1a0b1ac9a61870"
     },
     "mapnikwrap": {
       "locked_version": "0.2.0",
