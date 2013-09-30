@@ -17,6 +17,11 @@
       "git": "git@github.com:mapzen/chef-vpnwrap.git",
       "ref": "099ad8917d29537dc02f609139b51aecfcc1ce04"
     },
+    "osm2pgsql": {
+      "locked_version": "0.4.3",
+      "git": "git@github.com:mapzen/chef-osm2pgsql.git",
+      "ref": "ff6d4073d017793b4561cae56b40be7967d9ee2f"
+    },
     "postgiswrap": {
       "locked_version": "0.7.4",
       "git": "https://github.com/heffergm/chef-postgiswrap.git",
@@ -26,11 +31,6 @@
       "locked_version": "0.2.0",
       "git": "https://github.com/heffergm/chef-mapnikwrap.git",
       "ref": "d742afd88f5268a5ed690924a7ba4d673d26a95a"
-    },
-    "osm2pgsql": {
-      "locked_version": "0.4.2",
-      "git": "https://github.com/heffergm/chef-osm2pgsql.git",
-      "ref": "facb2cf95b55a9b66dbdad2831d3a215fc90c127"
     },
     "openvpn": {
       "locked_version": "1.2.0",
