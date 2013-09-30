@@ -32,15 +32,15 @@
       "git": "https://github.com/mapzen/chef-postgresql.git",
       "ref": "80128fe3807f54b300bf2c3300906b0c76158e50"
     },
+    "postgiswrap": {
+      "locked_version": "0.7.4",
+      "git": "git@github.com:mapzen/chef-postgiswrap.git",
+      "ref": "33b9b262a92e414c144b3a60db1a0b1ac9a61870"
+    },
     "minutely_mapnik": {
       "locked_version": "0.1.3",
       "git": "https://github.com/mapzen/chef-minutely_mapnik.git",
       "ref": "619b68c6d654de02c11b04d4f183cdf6b161284c"
-    },
-    "postgiswrap": {
-      "locked_version": "0.7.4",
-      "git": "https://github.com/heffergm/chef-postgiswrap.git",
-      "ref": "33b9b262a92e414c144b3a60db1a0b1ac9a61870"
     },
     "mapnikwrap": {
       "locked_version": "0.2.0",
