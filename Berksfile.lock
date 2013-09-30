@@ -48,9 +48,9 @@
       "ref": "37550879feb9edd26348f863fe0229ab70f56b53"
     },
     "minutely_mapnik": {
-      "locked_version": "0.1.2",
+      "locked_version": "0.1.3",
       "git": "https://github.com/heffergm/chef-minutely_mapnik.git",
-      "ref": "409512747a327d157bced9f9cd7232b70a5af71b"
+      "ref": "619b68c6d654de02c11b04d4f183cdf6b161284c"
     },
     "postgresql": {
       "locked_version": "0.13.0",
